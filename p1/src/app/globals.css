@@ -4,3 +4,56 @@
 
 
 
+body{
+    padding: 0;
+    margin:0;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+}
+
+.menu{
+    width: 300px;               /* Largura da caixa */
+    height: 100px;              /* Altura da caixa */
+    background-color: #ff0000;  /* Cor de fundo da caixa */
+    border: 2px solid #111111;      /* Borda ao redor da caixa */
+    border-radius: 10px;         /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(248, 4, 4, 0.844);  /* Sombra da caixa */
+    padding: 20px;              /* Espaçamento interno */
+    text-align: center;         /* Centraliza o texto dentro da caixa */
+    display: flex;              /* Flexbox para centralizar o conteúdo */
+    justify-content: center;    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;        /* Centraliza o conteúdo verticalmente */
+    margin: 50px auto;  
+    justify-content: center; 
+    align-items: center; 
+}
+
+.d1, .d2, .d3, .d4, .d5{
+    width: 300px;               /* Largura da caixa */
+    height: 50px;              /* Altura da caixa */
+    color: white;
+    background-color: #7d1111;  /* Cor de fundo da caixa */
+    border: 2px solid #ab7777;      /* Borda ao redor da caixa */
+    border-radius: 10px;         /* Cantos arredondados */
+    box-shadow: 0 4px 8px rgba(118, 11, 11, 0.992);  /* Sombra da caixa */
+    padding: 10px;              /* Espaçamento interno */
+    text-align: center;         /* Centraliza o texto dentro da caixa */
+    display: flex;              /* Flexbox para centralizar o conteúdo */
+    justify-content: center;    /* Centraliza o conteúdo horizontalmente */
+    align-items: center;        /* Centraliza o conteúdo verticalmente */
+    margin: 50px auto;  
+    justify-content: center; 
+    align-items: center; 
+}
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: 40px;
+}

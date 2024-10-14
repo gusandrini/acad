@@ -1,10 +1,16 @@
-import Link from "next/link";
+import Image from "next/image";
 
 export default function Rodape() {
     return (
-        <div className="container">
+        <div className="rodape">
 
-            <Link href="https://www.instagram.com/sandrini__/profilecard/?igsh=MW5lYWtycG02MGJydA==">Insta</Link>
+            <Image 
+                src="/app/image/ronnie-coleman-rei.webp" // Caminho da imagem na pasta public
+                alt="Ronnie Coleman"
+                width={500} // Largura da imagem
+                height={300} // Altura da imagem
+                quality={100} // Qualidade da imagem (opcional)
+            />
 
         </div>
     );
